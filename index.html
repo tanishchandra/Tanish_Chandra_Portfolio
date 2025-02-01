@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Tanish Chandra Nijampudi</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Tanish Chandra</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certification">Certification</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Education</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block" onclick="window.location.href='https://linktr.ee/tanish_chandra';">
+          Contact
+        </button>
+        
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Tanish Chandra</span>
+          </h2>
+          <p class="text-muted">
+            As an aspiring student seeking a challenging opportunity to utilize my proficiency in computer science and my passion for technology to excel as a software developer and DevOps engineer. I am eager to contribute to a team environment and gain experience in building, deploying, and maintaining robust software applications. I am a quick learner and highly motivated to develop my skills in Java, HTML, CSS, and SQL to become a valuable asset to your organization. 
+            
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" onclick="window.location.href='https://linktr.ee/tanish_chandra';">
+            Hire Me
+        </button>
+        
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/My_pic-removebg-preview.png" class="img-fluid" alt="" width="300" height="300" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Provide Wide Range of Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Design</h4>
+              <p class="text-muted">
+                I am experienced in Web Design, focusing on creating visually appealing and user-friendly websites. I specialize in crafting responsive designs that ensure a seamless user experience across various devices. My skills include UI/UX design principles, layout structuring, typography, and color theory to enhance both aesthetics and usability. I use tools like Figma, Adobe XD, and Sketch to design intuitive interfaces. I prioritize creating clean, modern, and engaging designs that not only look great but also provide users with an efficient and enjoyable browsing experience.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Development</h4>
+              <p class="text-muted">
+                I am experienced in Web Development, specializing in both front-end and back-end technologies. I am proficient in HTML, CSS, JavaScript, and frameworks like React and Angular for front-end development. For back-end development, I work with Python, Node.js, and PHP, along with frameworks like Django and Express. I focus on building responsive, scalable, and secure web applications, optimizing user experience, and implementing databases like MySQL and PostgreSQL. Additionally, I ensure performance optimization, follow security best practices, and integrate third-party APIs to enhance functionality.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>DevOps Engineer</h4>
+              <p class="text-muted">
+                I am an experienced DevOps Engineer, specializing in CI/CD pipeline automation, infrastructure as code (IaC), cloud computing, and containerization. I have hands-on expertise in tools like Docker, Kubernetes, Jenkins, Terraform, and AWS/Azure, ensuring seamless deployment and scalability. My skills include scripting, system administration, monitoring, and security, optimizing software development lifecycles. I provide end-to-end DevOps solutions, enhancing workflow automation, improving reliability, and streamlining deployment processes to achieve high availability and efficiency in modern software environments.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Cloud Engineer</h4>
+              <p class="text-muted">
+                I am a Cloud Engineer with expertise in designing, deploying, and managing cloud infrastructure and services. I specialize in cloud platforms like AWS, Azure, and Google Cloud, using tools such as Terraform, Ansible, and Kubernetes for infrastructure automation and container orchestration. I focus on optimizing cloud architecture, ensuring scalability, high availability, and security for applications and services. My skills include cloud migration, cost optimization, performance tuning, and disaster recovery planning, helping organizations leverage the cloud to improve operational efficiency, reduce costs, and enhance system resilience.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Software Engineer</h4>
+              <p class="text-muted">
+                I am a Software Engineer with experience in designing, developing, and maintaining software solutions across various domains. I specialize in full-stack development, utilizing technologies such as Java, Python, JavaScript, and frameworks like Django, Flask, and Node.js. I have expertise in database management (MySQL, PostgreSQL) and follow best practices for code optimization, security, and performance tuning. My focus is on building scalable, maintainable, and efficient systems, using agile methodologies to ensure timely delivery and continuous improvement. I am passionate about solving complex problems and enhancing user experiences through innovative software solutions.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>UI/UX Design</h4>
+              <p class="text-muted">
+                I am experienced in UI/UX Design, focusing on creating intuitive, user-centered designs that provide seamless and enjoyable experiences. I have expertise in user research, wireframing, prototyping, and visual design, ensuring that the design aligns with user needs and business goals. I specialize in responsive design, ensuring that interfaces work flawlessly across devices, and use tools like Figma, Adobe XD, and Sketch to craft visually appealing and functional designs. My goal is to enhance usability, improve accessibility, and drive user engagement, resulting in products that are both aesthetically pleasing and easy to navigate.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Azure, CI/CD, Cloud Computing, Cloud Infrastructure</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">HTML, CSS, JavaScript, Django, MongoDB, Devops</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Cloud Services, Continuous Integration</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">0%</span>
+                </div>
+                <br>
+                <span class="text">Java, ReactJS, SQL, GitHub, Oracle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Creating Robust and Scalable Cloud Solutions</h3>
+            <p class="text-muted">
+              I specialize in Azure, CI/CD, and Cloud Computing, focusing on designing and implementing Cloud Infrastructure and Cloud Services. With expertise in Continuous Integration and DevOps, I optimize development workflows and ensure smooth, automated deployments. I have hands-on experience with Django, Java, React.js, and databases such as MongoDB, Oracle, and SQLite. My skills also extend to Lotus for comprehensive software solutions, delivering scalable, secure, and high-performing systems for modern digital environments.
+            </p>
+             <!-- Buttons for downloading CV -->
+    <div class="mt-3">
+      <button class="c-btn h-btn py-3 px-5 rounded-pill">
+        <a 
+        href="https://drive.google.com/file/d/1KXm8Pg04qnMlX_QmejLcsuTgzDFZxWJX/view?usp=sharing"
+        target="_blank"
+        style="text-decoration: none; color: #fff;">
+          Download CV
+        </a>
+      </button>
+
+      
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Project Work</small>
+        <h3>Check My Projects</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/2048game.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">2048 Game</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Game</span><br />
+                <p class="card-text">A fun and engaging 2048 puzzle game built using HTML, CSS, and JavaScript. This project showcases my skills in front-end development and game logic implementation, providing users with a smooth and interactive experience.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/Devops.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Optimizing DevOps Pipelines through Advanced UiPath Orchestrator Automation</h4>
+                <span class="badge bg-secondary badge-pill">DevOps</span>
+                <span class="badge bg-secondary badge-pill">Pipelines</span>
+                <span class="badge bg-secondary badge-pill mb-2">Cloud</span><br />
+                <p class="card-text">Created workflows for data extraction, report generation, and email automation. Utilized UiPath Orchestrator for managing, scheduling, and monitoring automated processes. Improved workflow reliability by 30% by implementing error handling mechanisms.
+                  Collaborated with designers and backend developers to ensure seamless integration of UI components.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/ttc.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Travel, Tourism, and Hospitality System</h4>
+                <span class="badge bg-secondary badge-pill">ReactJS</span>
+                <span class="badge bg-secondary badge-pill">ExpressJS</span>
+                <span class="badge bg-secondary badge-pill mb-2">MongoDB</span><br />
+                <p class="card-text">Increased customer retention by 5% by designing a responsive interface for seamless package booking. Increased operational efficiency by 10% for travel agencies by developing a React.js and MongoDB web application. Implemented secure payment gateway integration for online transactions.
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/pawn.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Mortgage and Pawn Brokerage System</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">Django</span>
+                <span class="badge bg-secondary badge-pill">Sql</span>
+                <span class="badge bg-secondary badge-pill mb-2">Web App</span
+                ><br />
+                <p class="card-text">Designed and developed a platform for managing mortgage and pawn brokerage transactions. Improved operational efficiency by 18% by designing a web application using Django and SQLite for mortgage brokerage. Integrated a secure database to store and manage customer and transaction records.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    
+
+    <!-- blog section starts -->
+    <section class="certification mt-5 pb-5" id="certification">
+      <div class="heading text-center pt-5">
+        <small>Certification</small>
+        <h3>My Certification Details</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="certificationpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <img src="images/az.png" class="card-img-top rounded-4" alt="Azure Certification" />
+            <div class="card-body px-4">
+              <h4 class="card-title">
+                <a href="">Azure Fundamentals (AZ-900)</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="certificationpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            <img src="images/orc.png" class="card-img-top rounded-4" alt="Oracle Certification" />
+            <div class="card-body px-4">
+              <h4 class="card-title">
+                <a href="">Oracle Associate Cloud Infrastructure Architect Certification</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="certificationpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <img src="images/sales.jpg" class="card-img-top rounded-4" alt="Salesforce Certification" />
+            <div class="card-body px-4">
+              <h4 class="card-title">
+                <a href="">Salesforce AI Associate</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="certificationpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <img src="images/wip.png" class="card-img-top rounded-4" alt="Wipro Certification" />
+            <div class="card-body px-4">
+              <h4 class="card-title">
+                <a href="">Wipro .Net Full Stack Developer</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+    <!-- blog section ends here -->
+        <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="blog">
+      <div class="heading text-center pt-5">
+        <small>Education</small>
+        <h3>My Education Details</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <img
+              src="images/Scl.jpg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>Secondary School Certicate(10th Class)</small
+              ><span class="ms-3">64.5%/100%</span>
+              <h4 class="card-title">
+                <a href="">Lotus High School</a>
+              </h4>
+              <p class="text-muted">
+                During my 10th class at Lotus High School, I gained foundational knowledge in various subjects, which laid the groundwork for my future academic and professional growth. My performance was driven by determination and dedication, allowing me to achieve a score of 64.5%. This experience helped me develop important skills such as problem-solving, time management, and critical thinking, which continue to shape my approach to learning and work today, enabling me to tackle challenges with confidence and efficiency.
+              
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            <img
+              src="images/int.jpg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>Intermediate (Class 12)</small
+              ><span class="ms-3">90%/100%</span>
+              <h4 class="card-title">
+                <a href="">Sasi New Gen College</a>
+              </h4>
+              <p class="text-muted">
+                In my 12th class at Sasi New Gen College, I achieved an outstanding score of 90%, reflecting my strong academic performance and dedication. This period marked a significant stage in my education, where I deepened my knowledge in various subjects and honed my analytical skills. 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <img
+              src="images/KL.jpg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>B.Tech - Computer Science and Information Technology</small
+              ><span class="ms-3">9.37/10 CGPA</span>
+              <h4 class="card-title">
+                <a href="">K L University</a>
+              </h4>
+              <p class="text-muted">
+                My skills in machine learning, web development, and database management, preparing me for a successful tech career.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <!-- here we will make modals if Read more link is clicked the modal will popup -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/2048game.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Pawan Kumavat</small
+                    ><span class="text-muted ms-2">Mar 8,2022</span>
+                  <h4 class="card-title mt-3">Quis autem vea eum iure reprehenderit</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/currency-converter.png" class="img-fluid" alt="">
+                </div>
+                
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/dictionary.png" class="img-fluid" alt="">
+                </div>
+            
+             
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+   
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">My Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Projects</a>
+        <div class="vr"></div>
+        <a href="#certification">Certification</a>
+        <div class="vr"></div>
+        <a href="#blog">Education</a>
+        <div class="vr"></div>
+        <a href="https://linktr.ee/tanish_chandra">Contact</a>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2025 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
